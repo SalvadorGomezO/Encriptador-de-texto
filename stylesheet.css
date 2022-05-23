@@ -1,0 +1,209 @@
+body {
+    background :#E5E5E5; 
+    height:760px;
+}
+
+#DivPrincipal {
+    display:grid;
+    grid-gap:20px;
+    grid-template-columns:9.1% 1fr 27.7%;
+    grid-template-rows: 79.2% 1fr;
+    grid-template-areas: "logo TextoDeco TextoCodi"
+                        " logo Botones TextoCodi";
+    height:760px;
+}
+
+#DivLogo {
+    grid-area:logo;
+    position:absolute;
+    width:2.15%;
+    height:3.3%;
+    top:2.7%;
+    left:5.8%;
+}
+
+#DivTextoOrigen {
+    grid-area:TextoDeco;
+}
+
+#DivBotones {
+    grid-area:Botones;
+    justify-content:center;
+}
+
+#DivTextoDestino {
+    grid-area:TextoCodi;
+    background:#FFFFFF;
+    height:96.9%;
+    width:80%;
+    border-radius:32px;
+    margin-top:3.3%;
+    margin-left:15%;
+    margin-right:3.3%;
+}
+
+#TextoOrigen { 
+    position:absolute;
+    top:15.64%;
+    left:16.6%;
+    width:50%;
+    height:50%;
+    border:0;
+    background:#E5E5E5;
+    font-size:32px;
+    resize: none;
+    outline:none;
+    color:#0A3871;
+    text-transform:lowercase;
+}
+
+::placeholder {
+    color:#0A3871;
+}
+
+#muneco {
+    margin-top:35%;
+    margin-left:5%;
+    width:90%;
+}
+
+#NingunMsj {
+    text-align:center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #343A40;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#IngreseTexto {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#signoInfo {
+    display:inline;
+    margin-top:1%;
+    margin-left:1%;
+}
+
+#SoloLetras { 
+    display:inline;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    opacity: 0.8;    
+}
+
+#ButEncriptar {
+    display: inline;
+    margin:8px;
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    height:40%;
+    width:30%;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+#ButDesencriptar { 
+    display: inline;
+    margin:8px;
+    background: #D8DFE8;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    height:40%;
+    width:30%;
+    color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.ocultar {
+    display:none;
+    resize:none;
+}
+
+.ButDesencriptar { 
+    display: inline;
+    margin:8px;
+    background: #D8DFE8;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    height:7%;
+    width:90%;
+    color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.textoDeco {
+    border:0;
+    resize:none;
+    font-size:32px;
+    outline:none;
+    color:#0A3871;
+    margin:10px;
+    width:90%;
+    height:85%;
+    padding:0;
+}
+
+#Pegar {
+    display: inline;
+    margin:8px;
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    height:40%;
+    width:30%;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheet.css">
+    <title>Encriptador de texto</title>
+</head>
+
+<body>
+    <div id="DivPrincipal">
+        <div id="DivLogo" >
+            <img src="../Encriptador de texto/Imagenes/Vector.png" id="logoA" alt="Logo de la pagina.">
+        </div>
+         <div id="DivTextoOrigen">
+                <textarea autofocus required id="TextoOrigen" placeholder="Ingrese el texto aqui" min="1" required></textarea>
+        </div>
+        <div id="DivBotones">
+            <img src="../Encriptador de texto/Imagenes/signoInfo.png" id="signoInfo" alt="Signo de información.">
+            <p id="SoloLetras">Solo letras y sin acentos</p>
+            <br>
+            <button id="ButEncriptar">Encriptar</button>
+            <button id="ButDesencriptar">Desencriptar</button>
+            <button id="Pegar">Pegar</button>
+        </div>
+        <div id="DivTextoDestino">
+                <img src="../Encriptador de texto/Imagenes/Muneco.png" id="muneco" alt="Muñeco con lupa.">
+                <p id="NingunMsj">Ningún mensaje fue <br>encotrado</p>
+                <p id="IngreseTexto">Ingrese el texto que desea encriptar o <br>desencriptar</p>
+                <textarea id="textareaDeco" class="ocultar" spellcheck="false" readonly="readonly"></textarea>
+                <button id="copiar" class="ocultar">Copiar</button>
+        </div>
+
+        <div class="overlay"> <!-- div para que la pantalla de fondo se ponga mas obscura cuando aparezca la alerta-->
+            <div class="popup"></div>
+        </div>
+    </div>
+
+    <script src="../Encriptador de texto/Codificador.js"></script>
+    <script src="../Encriptador de texto/Decodificador.js"></script>
+    <script src="../Encriptador de texto/Acciones.js"></script>
+    
+    
+</body>
+</html>
